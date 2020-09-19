@@ -9,7 +9,7 @@ At first I started making worksheet by using Google Doc. I had to create the lay
 
 That's the reason for me to look into an automate way to get the job done.
 
-## Benefict of Grid System
+## Benefits of Grid System
 The grid system helps someone learning the language to write the characters in the proper size and orientation. The grid system gives a worksheet for the new learner to practice writing the characters.
 
 ## Requirements
