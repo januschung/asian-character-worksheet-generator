@@ -44,7 +44,7 @@ python3 run.py
 [sample worksheet](sample-worksheet.pdf)
 
 ## Code Overview
-Everything is written in python in `run.py`. You can play with the font and gird size with the variables under the `# Basic settings` section. You can also try a different font to potentially make the generator works with a different language (eg. Korean Hangul).
+Everything is written in python in `run.py`. You can play with the font and gird size with the variables under the `# Basic settings` section.
 
 ## Contributing
 Any suggestion will be appreciated. You can simply create a pull request with your idea. Feel free to fork the project too.
