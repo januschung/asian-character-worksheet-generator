@@ -14,7 +14,7 @@ The grid system helps someone learning the language to write the characters in t
 
 ## Requirements
 1. [python3](https://www.python.org/downloads/)
-2. [fpdf](https://pypi.org/project/fpdf/)
+2. [fpdf2](https://pypi.org/project/fpdf2/)
 
 ## How to Use
 1. Edit the file `text` with the list of characters of your choice (or use the sample). Note that you need to supply 14 characters on each line.
@@ -26,16 +26,19 @@ The grid system helps someone learning the language to write the characters in t
 日月金木水火土天地海宇宙星宿
 目耳鼻口眉手足舌皮心肌肝肺腸
 あいうえおかきくけこアイウエ
+일이삼사오육칠팔구십백천좌우
 ```
 2. Generate the worksheet in pdf format with the following command:
 ```
+pip install -r requirements.txt
 python3 run.py
 ```
 3. Print out the generated file `worksheet.pdf`
 
 ## Language Supported
 1. Chinese
-2. Japanese (Hiragana and Katagana)
+1. Japanese (Hiragana and Katagana)
+1. Korean
 
 ## Sample
 [sample worksheet](sample-worksheet.pdf)
