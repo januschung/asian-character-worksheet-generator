@@ -29,14 +29,12 @@ class asian_character_worksheet_generator():
         # Reversing character order; In vertical page layout, the character is aligned
         # from right to left
         for c in word_array[::-1]:
-            # self.pdf.cell(self.size, self.size, txt=c, border=1, ln=0, align='C')
             self.add_cell(c)
         self.pdf.ln()
 
         # To print out empty grid
         for _ in range(0, self.num_y_cell):
             for _ in range(0, self.num_x_cell):
-                # self.pdf.cell(self.size, self.size, border=1, ln=0, align='C')
                 self.add_cell()
             self.pdf.ln()
 
